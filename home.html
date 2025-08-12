@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About The Three Of Us</title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang</h1>
+        <p>"About The Three Of Us"</p>
+        <button class="btn" onclick="pindahHalaman()">Jelajahi</button>
+    </div>
+
+    <script>
+        function pindahHalaman() {
+            document.body.classList.add("fade-out");
+            setTimeout(function(){
+                window.location.href = "index.html";
+            }, 800); // tunggu 0.8 detik baru pindah halaman
+        }
+    </script>
+</body>
+</html>

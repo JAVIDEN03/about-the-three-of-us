@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About the Three of Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>About The Three Of Us</h1>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Kita Bertiga</a></li>
+        <li><a href="#prolog">Prolog</a></li>
+        <li><a href="#sejarah">Sejarah</a></li>
+        <li><a href="#album">Album Kenangan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#buku">Informasi Buku Kita</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda">
+      <h2>Beranda</h2>
+      <p>Buku ini adalah saksi bisu tentang kisah persahabatan antara tiga insan yang awalnya hanya orang asing dan tak saling kenal, tapi kini menjalin ikatan yang lebih berarti dari seorang sahabat.
+	Persaudaraan antara kita bertiga tak selalu berjalan mulus, tapi justru dengan berbagai tantangan dan rintangan yang kita hadapi, semua itu bukan memecahkan hubungan antara kita melainkan semakin mempererat tali cinta kasih.
+	Buku ini tak lahir karena kebahagiaan, bukan pula karena manisnya alur kehidupan antara kita, tapi buku ini tercipta untuk mengingat kembali luka yang pernah memeluk kita bertiga. <i>About the Three of Us</i> dari kita untuk kita.
+	Ini bukan serangan. Ini bekas luka yang kami bingkai dengan kata-kata. Menulis bukan untuk melawan, tapi untuk menyembuhkan.
+</p>
+    </section>
+
+   <section id="tentang">
+    <h2>Tentang Kita Bertiga</h2>
+    <p>Kami adalah Jaf, Vina, dan Eden, tiga sahabat yang tumbuh bersama dalam berbagai cerita.</p>
+
+    <div class="profile-cards">
+        <div class="card">
+            <h3>Jafier Theovilus Undong</h3>
+            <a href="jafier.html" class="btn">Lihat Profil</a>
+        </div>
+        <div class="card">
+            <h3>Melvina Bawaele</h3>
+            <a href="melvina.html" class="btn">Lihat Profil</a>
+        </div>
+        <div class="card">
+            <h3>Eden Junior Kumenteri</h3>
+            <a href="eden.html" class="btn">Lihat Profil</a>
+        </div>
+    </div>
+</section>
+
+
+    <section id="prolog">
+      <h2>Prolog</h2>
+      <p>Tidak semua perjalanan hidup berjalan lurus, terkadang ada tikungan, tanjakan, bahkan rintangan. Kita pernah jatuh, gagal, bahkan menjadi bahan tawa dari sekelompok orang. Namun, dari semua itu, kita belajar satu hal: keberhasilan bukan milik mereka yang selalu benar melainkan milik mereka yang mau bangkit dan terus belajar dari kesalahan.
+<p>Buku ini bukan sekadar tentang kami bertiga, tapi tentang kita semua—siapa pun yang sedang bertumbuh, berjuang, dan mencari arti. Meski kisah ini berakar dari persahabatan, setiap makna di dalamnya tidak lahir karena kebetulan. Ia tumbuh dari cahaya yang tak pernah padam, cahaya yang menyemangati kita untuk terus bertahan di tengah dunia yang penuh tekanan.</p>
+<p>Kita pernah tertawa tanpa memikirkan apa pun. Dunia terasa kecil, seolah hanya ada kita di dalamnya. Tapi waktu, seperti biasa, tak pernah mau berhenti. Setiap detik menjadi lebih bermakna sejak kabar itu datang—kabar yang membungkus duka dalam diam.</p>
+<p>Tak ada yang menginginkan perpisahan itu. Tapi takdir punya jalannya sendiri. Percikan luka mulai muncul, mengikat batin yang tersiksa. Sikap berubah, dan perlahan kita menjadi asing. Ini bukan sekadar konflik pertemanan, ini tentang cahaya yang muncul bahkan di tempat yang terang. Keberadaan yang dahulu bermakna, kini menjadi sunyi.</p>
+<p>Tawa. Kebersamaan. Tiga raga yang saling melengkapi dalam dunia kecil kita. Kini harus berpisah, meski bukan karena kesalahpahaman. Mungkin kita tak akan kembali seperti dulu. Tapi setiap tawa dan air mata yang pernah ada akan tetap hidup dalam cerita ini—di antara tawa dan titik pisah.</p>
+<p>Terkadang kita harus meninggalkan teman seperjuangan untuk melanjutkan perjuangan masing-masing. Namun, bukan berarti kita berpisah; melainkan terus berjuang untuk menggapai mimpi. <i>Every time is a person, every person has a time. </i></p>
+</p>
+    </section>
+
+    <section id="sejarah">
+      <h2>Sejarah</h2>
+      <p>Perjalanan dimulai sejak kami bertemu di sekolah...</p>
+    </section>
+
+    <section id="album">
+  <h2>Album Kenangan</h2>
+  <button onclick="tampilkanFoto()">Lihat Foto Kenangan</button>
+  <div id="foto" style="display: none;">
+    <p>Ini sederhana, tapi bermakna.</p>
+    <img src="image/grup-juara.jpg" alt="Kenangan" style="width: 300px; border-radius: 10px;" />
+  </div>
+</section>
+
+   <section id="kontak">
+  <h2>Kontak Kami</h2>
+  <form onsubmit="kirimPesan(event)">
+    <input type="text" id="nama" placeholder="Nama kamu" required />
+    <input type="email" id="email" placeholder="Email kamu" required />
+    <textarea id="pesan" placeholder="Pesan kamu" required></textarea>
+    
+    <label for="tujuan">Kirim ke:</label>
+    <select id="tujuan" required>
+      <option value="">-- Pilih --</option>
+      <option value="082193237997">Jafier Theovilus Undong</option>
+      <option value="089504340313">Melvina Bawaele</option>
+      <option value="088246188135">Eden Junior Kumenteri</option>
+    </select>
+
+    <button type="submit">Kirim via WhatsApp</button>
+  </form>
+  <div id="konfirmasi"></div>
+</section>
+
+
+    <section id="buku">
+      <h2>Informasi Buku Kita</h2>
+      <p>Buku ini berisi cerita perjalanan, prestasi, dan persahabatan kami yang menginspirasi.</p>
+    </section>
+  </main>
+
+  <footer>
+  Dibuat oleh <span>Jafier</span>, <span>Melvina</span>, dan <span>Eden</span> © 2025
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
